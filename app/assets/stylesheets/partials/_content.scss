@@ -4,5 +4,20 @@ body {
 
 .main-content {
   background-color: #fff;
-  padding-top: 20px;
+  padding-top: 2em;
+}
+
+.carousel {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 6em;
+}
+
+.section-image {
+  display: block;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 2em;
 }
