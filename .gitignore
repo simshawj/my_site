@@ -18,3 +18,6 @@
 
 #Ignore vim's temporary files
 *.swp
+
+#Ignore Aptana's files
+.project
