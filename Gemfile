@@ -3,6 +3,7 @@ ruby '2.2.3'
 
 gem 'rails', '4.2.4'
 
+gem 'font-awesome-sass'
 gem 'foundation-rails'
 gem 'jbuilder'
 gem 'jquery-rails'
