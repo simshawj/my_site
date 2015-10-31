@@ -16,6 +16,8 @@ body {
 
 .section {
   img {
+    max-width: 100px;
+    max-height: 100px;
     display: block;
     border-radius: 50%;
     margin-left: auto;
