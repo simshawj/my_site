@@ -18,3 +18,11 @@
 //= require_tree .
 
 $(function(){ $(document).foundation(); });
+
+$(document).ready(function(){
+  $('.home-carousel').slick({
+    autoplay: true,
+    dots: true,
+    arrows: false
+  });
+});
