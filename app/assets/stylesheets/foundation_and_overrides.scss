@@ -122,6 +122,7 @@ $row-width: rem-calc(1200);
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
+$topbar-primary-color: #8708B2;
 
 // We use these to control various global styles
 // $body-bg: $white;
@@ -838,7 +839,7 @@ $row-width: rem-calc(1200);
 // Off Canvas Tab Bar Variables
 // $include-html-off-canvas-classes: $include-html-classes;
 
-// $tabbar-bg: $oil;
+$tabbar-bg: $topbar-primary-color;
 // $tabbar-height: rem-calc(45);
 // $tabbar-icon-width: $tabbar-height;
 // $tabbar-line-height: $tabbar-height;
@@ -858,7 +859,7 @@ $row-width: rem-calc(1200);
 
 // Off Canvas Menu Variables
 // $off-canvas-width: rem-calc(250);
-// $off-canvas-bg: $oil;
+$off-canvas-bg: $topbar-primary-color;
 // $off-canvas-bg-hover: scale-color($tabbar-bg, $lightness: -30%);
 // $off-canvas-bg-active: scale-color($tabbar-bg, $lightness: -30%);
 
@@ -1403,7 +1404,7 @@ $row-width: rem-calc(1200);
 // $include-html-top-bar-classes: $include-html-classes;
 
 // Background color for the top bar
-// $topbar-bg-color: $oil;
+$topbar-bg-color: $topbar-primary-color;
 // $topbar-bg: $topbar-bg-color;
 
 // Height and margin

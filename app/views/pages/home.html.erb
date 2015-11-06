@@ -1,9 +1,21 @@
 <div class="row hide-for-small">
   <div class="medium-12 medium-centered columns">
     <div class="home-carousel">
-      <div><img class="carousel-item" src="http://placehold.it/900x500"></div>
-      <div><img class="carousel-item" src="http://placehold.it/900x500"></div>
-      <div><img class="carousel-item" src="http://placehold.it/900x500"></div>
+      <div>
+        <%= link_to about_path do %>
+          <%= image_tag "me.jpeg", class: "carousel-item" %>
+        <% end %>
+      </div>
+      <div>
+        <%= link_to portfolio_path do %>
+          <%= image_tag "wallpaper_feature.png", class: "carousel-item" %>
+        <% end %>
+      </div>
+      <div>
+        <%= link_to portfolio_path do %>
+          <img class="carousel-item" src="http://placehold.it/900x500">
+        <% end %>
+      </div>
     </div>
   </div>
 </div>
@@ -11,11 +23,11 @@
 <div class="row">
   <div class="small-12 medium-4 columns">
     <div class="section">
-      <img src="http://placehold.it/100x100">
+      <%= image_tag "killer_android_logo.jpeg", class: "not-rounded" %>
       <h4>REST APIs and Android Apps</h4>
       <p>Thoughout your time as an Android developer, it is likely you will come across multiple times when you need to interact with a RESTful API.</p>
       <p>I will be presenting some useful techniques in minimizing data usage while providing your users with up to date information.</p>
-      <a href="http://meetup.com/Killer-Android/events/226477403/">More Info/RSVP</a>
+      <%= link_to "More Info/RSVP", "http://meetup.com/Killer-Android/events/226477403" %>
     </div>
   </div>
 
@@ -24,7 +36,7 @@
       <img src="http://placehold.it/100x100">
       <h4>Cosplay Companion</h4>
       <p>Ever wonder when your favorite photo shoot is going to be at a convention you are at but don't have an easy way to locate that information?  Look no further, with Cosplay Companion, you can have a central location for finding out information about photo shoots at every convention you go to.</p>
-      <p>Currently in development, this project includes both a website and an Android application.  For more information feel free to look in my portfolio and/or <a href="#">contact me</a>.</p>
+      <p>Currently in development, this project includes both a website and an Android application.  For more information feel free to look in my <%= link_to "portfolio", portfolio_path %>.</p>
     </div>
   </div>
 
