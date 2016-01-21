@@ -4,7 +4,7 @@ ruby '2.3.0'
 gem 'rails', '4.2.5'
 
 gem 'font-awesome-sass'
-gem 'foundation-rails'
+gem 'foundation-rails', '~> 5.5.3.2'
 gem 'jbuilder'
 gem 'jquery-rails'
 gem 'jquery-slick-rails'
